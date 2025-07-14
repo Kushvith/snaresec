@@ -73,9 +73,9 @@
   .card-dashed-border::before {
     content: '';
     position: absolute;
-    inset: -2px; 
+    inset: -1.5px; 
     border-radius: 1.25rem; 
-    border: 2px dashed theme('colors.primary');
+    border: 3px dashed theme('colors.primary');
     opacity: 0.6;
     z-index: 1;
   }
